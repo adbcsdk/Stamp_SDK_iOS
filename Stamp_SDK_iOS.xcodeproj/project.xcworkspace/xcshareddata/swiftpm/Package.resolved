@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "stamp-ios-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/adbcsdk/stamp-ios-spm.git",
+      "state" : {
+        "revision" : "fdc2c34c14f93d24ac8b8137765b15527db14477",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 2
+}
