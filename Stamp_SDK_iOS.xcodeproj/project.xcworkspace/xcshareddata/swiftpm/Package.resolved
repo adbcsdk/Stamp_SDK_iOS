@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/adbcsdk/stamp-ios-spm.git",
       "state" : {
-        "revision" : "fdc2c34c14f93d24ac8b8137765b15527db14477",
-        "version" : "1.0.0"
+        "revision" : "2bf25bae307028546cba9a6bb0cc6a32ce232518",
+        "version" : "1.0.2"
       }
     }
   ],

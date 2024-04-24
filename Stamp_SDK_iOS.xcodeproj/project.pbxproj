@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A82482A2BD8B1B4004BA7DF /* StampSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 6A8248292BD8B1B4004BA7DF /* StampSDK */; };
 		6A8C4FE22BD104540024C8E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8C4FE12BD104540024C8E0 /* AppDelegate.swift */; };
 		6A8C4FE42BD104540024C8E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8C4FE32BD104540024C8E0 /* SceneDelegate.swift */; };
 		6A8C4FE62BD104540024C8E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8C4FE52BD104540024C8E0 /* ViewController.swift */; };
 		6A8C4FE92BD104540024C8E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A8C4FE72BD104540024C8E0 /* Main.storyboard */; };
 		6A8C4FEB2BD104570024C8E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A8C4FEA2BD104570024C8E0 /* Assets.xcassets */; };
 		6A8C4FEE2BD104570024C8E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A8C4FEC2BD104570024C8E0 /* LaunchScreen.storyboard */; };
-		6A8C4FF72BD104E70024C8E0 /* StampSDKBF in Frameworks */ = {isa = PBXBuildFile; productRef = 6A8C4FF62BD104E70024C8E0 /* StampSDKBF */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,18 +32,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A8C4FF72BD104E70024C8E0 /* StampSDKBF in Frameworks */,
+				6A82482A2BD8B1B4004BA7DF /* StampSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A8248282BD8B1B4004BA7DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6A8C4FD52BD104540024C8E0 = {
 			isa = PBXGroup;
 			children = (
 				6A8C4FE02BD104540024C8E0 /* Stamp_SDK_iOS */,
 				6A8C4FDF2BD104540024C8E0 /* Products */,
+				6A8248282BD8B1B4004BA7DF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,7 +94,7 @@
 			);
 			name = Stamp_SDK_iOS;
 			packageProductDependencies = (
-				6A8C4FF62BD104E70024C8E0 /* StampSDKBF */,
+				6A8248292BD8B1B4004BA7DF /* StampSDK */,
 			);
 			productName = Stamp_SDK_iOS;
 			productReference = 6A8C4FDE2BD104540024C8E0 /* Stamp_SDK_iOS.app */;
@@ -300,6 +308,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4GLMU346TA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Stamp_SDK_iOS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -328,6 +337,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4GLMU346TA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Stamp_SDK_iOS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -378,16 +388,16 @@
 			repositoryURL = "https://github.com/adbcsdk/stamp-ios-spm.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				minimumVersion = 1.0.2;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		6A8C4FF62BD104E70024C8E0 /* StampSDKBF */ = {
+		6A8248292BD8B1B4004BA7DF /* StampSDK */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 6A8C4FF52BD104E70024C8E0 /* XCRemoteSwiftPackageReference "stamp-ios-spm" */;
-			productName = StampSDKBF;
+			productName = StampSDK;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
